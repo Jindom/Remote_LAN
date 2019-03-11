@@ -1,5 +1,5 @@
-﻿$username='pc'
-$password='19980823grys007'
+﻿$username='username'
+$password='password'
 $myWindowsID=[System.Security.Principal.WindowsIdentity]::GetCurrent()
 $myWindowsPrincipal=new-object System.Security.Principal.WindowsPrincipal($myWindowsID)
 $adminRole=[System.Security.Principal.WindowsBuiltInRole]::Administrator
